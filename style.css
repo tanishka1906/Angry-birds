@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon{
+    border: none;
+padding: 4px 7px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+border-radius: 50%;
+font-size: 20px;
+}
+.facebook-icon{
+    background-color: #3b5998;
+    color: white;
+    margin: 10px 4px;
+    transition: all 0.3s;
+}
+.twitter-icon{
+    background-color: #00aced;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.youtube-icon{
+    background-color: #b00;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.insta-icon{
+    background-color: #517fa4;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.facebook-icon:hover{
+    background-color: white;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+    margin: 5px 2px;
+}
+.twitter-icon:hover{
+    background-color: white;
+    color: #00aced;
+    border: 2px solid #00aced;
+    margin: 5px 2px;
+}
+.youtube-icon:hover{
+    background-color: white;
+    color: #bb0000;
+    border: 2px solid #bb0000;
+    margin: 5px 2px;
+}
+.insta-icon:hover{
+    background-color: white;
+    color: #517fa4;
+    border: 2px solid #517fa4;
+    margin: 5px 2px;
+}
+.part-1{
+    max-width: 100%;
+    height: 120vh;
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.seperator{
+    padding-top: 0;
+}
+.part-2{
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);
+max-width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.part-2 > img{
+   width: 596px;
+    height: 612px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.angry{
+    float: right;
+    padding-top: 100px;
+    padding-right: 120px;
+}
+.angry > img{
+    width: 600px;
+    height: 500px;
+}
+.dream{
+    float: right;
+    padding-top: 120px;
+    padding-right: 100px;
+}
+.dream > img{
+    width: 264px;
+    height: 175px;
+}
+.name{
+    float: left;
+    padding: 14px 16px;
+    font-family: 'Luckiest Guy',cursive;
+    font-size: 28px;
+    color: black;
+    font-weight: 900;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.name:hover{
+    transform: scale(1.2);
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+    float: right;
+    padding-right: 30px;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+li a:hover{
+    background-color: #111;
+    color: white;
+    border-color: red;
+    text-decoration: underline;
+}
+.download{
+    background-color: #ffe400;
+    border: none;
+    color: darkgray;
+    font-weight: 700;
+    padding: 16px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+    transition: all 0.3s;
+}
+.download:hover{
+    background-color: #999900;
+    color: #fff;
+}
+.seperator__image{
+    height: 170px;
+} 
+.info{
+   padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+iframe{
+    margin-left: 10px;
+}
+.footer-icon{
+    border: none;
+    padding: 4px 7px 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.footer-facebook-icon{
+    background-color: #3b5998;
+    color: white;
+    margin: 10px 4px;
+    transition: all 0.3s;
+}
+.footer-twitter-icon{
+    background-color: #00aced;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.footer-youtube-icon{
+    background-color: #b00;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.footer-insta-icon{
+    background-color: #517fa4;
+    color: white;
+    margin: 10px 2px;
+    transition: all 0.3s;
+}
+.footer-facebook-icon:hover{
+    background-color: white;
+    color: #3b5998;
+}
+.footer-twitter-icon:hover{
+    background-color: white;
+    color: #00aced;
+}
+.footer-youtube-icon:hover{
+    background-color: white;
+    color: #bb0000;
+}
+.footer-insta-icon:hover{
+    background-color: white;
+    color: #517fa4;
+}
+.footer-logo{
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.footer-logo:hover{
+    transform: scale(1.2);
+}
+.footer p{
+padding: 15px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+font-size: 20px;
+}
+.part-3{
+    color: #ddd;
+    background-color: black;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+}
